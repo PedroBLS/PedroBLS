@@ -26,7 +26,7 @@ Hoje já tenho experiência prática desenvolvendo sistemas, automatizando proce
 
 **Frontend**
 - HTML, CSS, JavaScript
-- React (em evolução)
+- React 
 
 **Outros**
 - Git e GitHub
