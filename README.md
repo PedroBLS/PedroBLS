@@ -1,82 +1,62 @@
-# Tudo bem? Eu sou o Pedro!
+# Olá, eu sou o Pedro Brandão 👋
 
-Sou desenvolvedor em início de carreira, com foco em **Python, desenvolvimento web e dados**.  
-Tenho formação em Administração e estou finalizando uma pós em **Ciência de Dados**, então acabo trabalhando bastante na interseção entre **negócio + tecnologia**.
+**Desenvolvedor Full Stack (Python / React) | Especialista em Dados**
 
-Hoje já tenho experiência prática desenvolvendo sistemas, automatizando processos e trabalhando com dados no dia a dia.
+Sou um desenvolvedor focado em construir soluções web completas e orientadas a dados. Com background sólido em Administração de Empresas e especialização em Ciência de Dados, minha atuação vai além do código: eu traduzo requisitos de negócio em arquiteturas escaláveis, automações eficientes e produtos que geram valor real.
 
+Possuo experiência prática comprovada desenvolvendo de ponta a ponta: desde a modelagem do banco de dados e criação de APIs REST, até o desenvolvimento do front-end e a implantação (deploy) em servidores cloud.
 
+## 🛠️ Stack Tecnológica
 
-## O que eu já faço hoje
+**Back-end & APIs**
+- Python (FastAPI, Flask, Django)
+- APIs RESTful & Integrações de Sistemas
 
-- Desenvolvimento de aplicações web com Python (Flask)
-- Criação de APIs REST e integração entre sistemas
-- Automação de processos com Python
-- Manipulação e análise de dados com SQL e Pandas
-- Construção de dashboards (Power BI)
+**Front-end**
+- React, JavaScript (ES6+)
+- HTML5, CSS3, Design Responsivo
 
-
-
-## Tecnologias que uso
-
-**Backend / Dados**
-- Python (Flask, APIs, automação)
-- SQL (PostgreSQL, SQLite)
+**Dados & Engenharia**
+- SQL (PostgreSQL, MySQL, SQLite)
 - Pandas, NumPy
+- Modelagem de Bancos de Dados e Pipelines de ETL
+- Dashboards e BI (Power BI)
 
-**Frontend**
-- HTML, CSS, JavaScript
-- React 
+**Infraestrutura & DevOps**
+- Cloud (AWS EC2, RDS)
+- Servidores Linux (Ubuntu), Nginx, PM2
+- Segurança Básica (UFW)
+- Git & GitHub (Fluxo colaborativo)
 
-**Outros**
-- Git e GitHub
-- Modelagem de banco de dados
-- ETL / integração de dados
+---
 
+## 🚀 Projetos em Destaque
 
+### 🎓 Sistema de Gestão Educacional - Ímpetus instituto de educação
+Plataforma Full Stack desenvolvida do zero para digitalizar e automatizar a operação de uma instituição de ensino.
+- **Arquitetura:** Back-end estruturado em Python conectado a um banco de dados relacional.
+- **Funcionalidades:** Gestão de alunos, agendamento de aulas, integrações financeiras (pagamentos) e geração de contratos.
+- **Deploy:** Implantação e gerenciamento autônomo em infraestrutura Cloud (AWS/Linux).
+- 🔗 [Ver Repositório](https://github.com/PedroBLS/sistema-escolaparticular)
 
-## Projetos que mais representam meu nível hoje
+### 🏢 Plataforma Institucional Educacional
+Desenvolvimento da presença digital e interface para atração de alunos.
+- **Foco:** Performance web, responsividade e otimização de UX/UI.
+- **Estrutura:** Código limpo e modularizado para fácil manutenção.
+- 🔗 [Ver Repositório](https://github.com/PedroBLS/institutoimpetus)
 
-### Sistema de Gestão Educacional
-Sistema que desenvolvi para organizar alunos, professores e aulas.
+---
 
-- Backend com Flask + banco de dados relacional
-- API REST com autenticação
-- Estrutura pensada para uso real
+## 📈 O que estou estudando no momento
 
-🔗 https://github.com/PedroBLS/sistema-escolaparticular
+Para garantir a evolução contínua das minhas entregas, meu foco atual de estudos concentra-se em padrões de engenharia de software corporativa:
+- **TypeScript:** Migração do ecossistema JavaScript para tipagem estática.
+- **DevOps:** Conteinerização de aplicações com Docker.
+- **Qualidade:** Implementação de testes automatizados (Pytest / Jest) e Clean Architecture.
 
-### Site Institucional – Ímpetus
-Site que desenvolvi para uma empresa educacional.
+---
 
-- Layout responsivo
-- Foco em usabilidade e clareza
-- Projeto simples, mas bem estruturado
+## 📫 Contato
 
-🔗 https://github.com/PedroBLS/institutoimpetus
-
-
-## O que estou estudando agora
-
-- Melhorar estrutura de código e arquitetura
-- Testes (unitários e integração)
-- Cloud (AWS/GCP)
-- React
-- Node.js
-
-
-## O que estou buscando
-
-Quero minha primeira oportunidade como **Desenvolvedor Júnior ou na área de dados**, onde eu consiga aprender rápido, participar de projetos reais e evoluir como profissional.
-
-
-## Contato
-
-- Email: pedrobrandao.ls@gmail.com  
-- LinkedIn: https://linkedin.com/in/pedro-brandaols  
-
-
-## Sobre mim
-
-Gosto de resolver problemas usando tecnologia, principalmente quando envolve automação ou dados.  
-Ainda estou no começo da carreira, mas tenho buscado construir projetos reais e evoluir de forma consistente.
+- **Email:** pedrobrandao.ls@gmail.com  
+- **LinkedIn:** [linkedin.com/in/pedro-brandaols](https://linkedin.com/in/pedro-brandaols)
