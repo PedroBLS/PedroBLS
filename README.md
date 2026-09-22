@@ -1,59 +1,54 @@
 # Olá, eu sou o Pedro Brandão 👋
 
-**Desenvolvedor Full Stack (Python / React) | Especialista em Dados**
+**Desenvolvedor Full Stack (TypeScript / Python)**
 
-Sou um desenvolvedor focado em construir soluções web completas e orientadas a dados. Com background sólido em Administração de Empresas e especialização em Ciência de Dados, minha atuação vai além do código: eu traduzo requisitos de negócio em arquiteturas escaláveis, automações eficientes e produtos que geram valor real.
+Desenvolvedor em início de carreira, com atuação prática no desenvolvimento e
+evolução de uma aplicação web real: definição de regras de negócio,
+implementação, investigação de falhas e testes antes de cada entrega.
+Background em Administração de Empresas e pós-graduação em andamento em
+Ciência de Dados, o que me ajuda a traduzir necessidade de negócio em solução
+técnica.
 
-Possuo experiência prática comprovada desenvolvendo de ponta a ponta: desde a modelagem do banco de dados e criação de APIs REST, até o desenvolvimento do front-end e a implantação (deploy) em servidores cloud.
+Uso ferramentas de IA como acelerador de desenvolvimento, revisando e testando
+o que é gerado.
 
-## 🛠️ Stack Tecnológica
+## 🛠️ Stack
 
-**Back-end & APIs**
-- Python (FastAPI, Flask, Django)
-- APIs RESTful & Integrações de Sistemas
+**Linguagens:** TypeScript / JavaScript, Python
+**Front-end:** React, Next.js, HTML5, CSS3
+**Back-end & APIs:** Next.js (API Routes), APIs REST, webhooks, autenticação
+**Dados:** SQL, PostgreSQL (Supabase), Pandas, ETL
+**Infra:** Docker, Nginx (proxy reverso), PM2, UFW, Linux (Ubuntu), Vercel
+**Testes:** Vitest (leitura e manutenção)
+**Ferramentas:** Git, GitHub
 
-**Front-end**
-- React, JavaScript (ES6+)
-- HTML5, CSS3, Design Responsivo
+## 🚀 Projetos
 
-**Dados & Engenharia**
-- SQL (PostgreSQL, MySQL, SQLite)
-- Pandas, NumPy
-- Modelagem de Bancos de Dados e Pipelines de ETL
-- Dashboards e BI (Power BI)
+### 📊 ETL e Classificação de Dados (Python)
+Pipeline de ETL e técnicas de classificação aplicadas à análise de churn de
+clientes.
+🔗 [Ver repositório](https://github.com/PedroBLS/etl-python-churn-strategy)
 
-**Infraestrutura & DevOps**
-- Cloud (AWS EC2, RDS)
-- Servidores Linux (Ubuntu), Nginx, PM2
-- Segurança Básica (UFW)
-- Git & GitHub (Fluxo colaborativo)
+### 🎓 Plataforma de Gestão Educacional (Ímpetus)
+Aplicação web em Next.js, TypeScript e Supabase (PostgreSQL) para agendamento
+de aulas e pagamentos. Atuo da definição de requisitos à correção de falhas em
+produção, incluindo integração com API de pagamentos (Asaas) e depuração de
+webhooks. *Repositório privado — posso apresentar em entrevista.*
 
----
+### 🏢 Site Institucional (Ímpetus)
+Site institucional focado em performance e responsividade.
+🔗 [Ver repositório](https://github.com/PedroBLS/institutoimpetus)
 
-## 🚀 Projetos em Destaque
+## 📈 Estudando agora
 
-### 🎓 Sistema de Gestão Educacional - Ímpetus instituto de educação
-Plataforma Full Stack desenvolvida do zero para digitalizar e automatizar a operação de uma instituição de ensino.
-- **Arquitetura:** Back-end estruturado em Python conectado a um banco de dados relacional.
-- **Funcionalidades:** Gestão de alunos, agendamento de aulas, integrações financeiras (pagamentos) e geração de contratos.
-- **Deploy:** Implantação e gerenciamento autônomo em infraestrutura Cloud (AWS/Linux).
-- 🔗 [Ver Repositório](https://github.com/PedroBLS/sistema-escolaparticular)
+- Testes automatizados escritos do zero (Vitest)
+- Boas práticas de arquitetura e clean code
+- Aprofundamento em Python para back-end
 
-### 🏢 Plataforma Institucional Educacional
-Desenvolvimento da presença digital e interface para atração de alunos.
-- **Foco:** Performance web, responsividade e otimização de UX/UI.
-- **Estrutura:** Código limpo e modularizado para fácil manutenção.
-- 🔗 [Ver Repositório](https://github.com/PedroBLS/institutoimpetus)
+## 📫 Contato
 
----
-
-## 📈 O que estou estudando no momento
-
-Para garantir a evolução contínua das minhas entregas, meu foco atual de estudos concentra-se em padrões de engenharia de software corporativa:
-- **TypeScript:** Migração do ecossistema JavaScript para tipagem estática.
-- **DevOps:** Conteinerização de aplicações com Docker.
-- **Qualidade:** Implementação de testes automatizados (Pytest / Jest) e Clean Architecture.
-
+- **Email:** pedrobrandao.ls@gmail.com
+- **LinkedIn:** [linkedin.com/in/pedro-brandaols](https://linkedin.com/in/pedro-brandaols)
 ---
 
 ## 📫 Contato
