@@ -14,7 +14,7 @@ Programo com apoio do **Claude Code**, mantendo as decisões técnicas e testand
 
 **Linguagens:** TypeScript / JavaScript, Python, SQL
 **Web:** React, Next.js (API Routes), Flask, HTML5, CSS3, APIs REST, webhooks, autenticação
-**Dados e ML:** PostgreSQL (Supabase), Pandas, scikit-learn, PySpark (Spark MLlib), NLTK, Power BI
+**Dados e ML:** PostgreSQL (Supabase), ETL, Power BI (DAX), Pandas, scikit-learn, PySpark (Spark MLlib), NLTK
 **Infra:** Docker, Nginx (proxy reverso), PM2, UFW, VPN, Linux (Ubuntu), Vercel
 **Qualidade:** Vitest, Git/GitHub com pull requests
 
@@ -27,6 +27,13 @@ Base pública de 7 mil clientes: tratamento dos dados e comparação entre Regre
 - **Uso do resultado:** faixas de risco validadas contra o churn real (7% a 61%), que alimentam mensagens de retenção com a API do Claude.
 
 🔗 [etl-python-churn-strategy](https://github.com/PedroBLS/etl-python-churn-strategy)
+
+### 🏛️ Painel de Compras Públicas (PNCP)
+ETL em Python que coleta cerca de 155 mil contratações públicas da Lei 14.133 (abr a set/2026) da API de Dados Abertos do Compras.gov.br e grava no PostgreSQL (Supabase), com carga incremental e upsert.
+- **Qualidade de dados:** as regras excluem 4.469 registros com valores inconsistentes na fonte (um deles estimado em R$ 3,9 trilhões).
+- **Dashboard no Power BI:** o pregão eletrônico tem **28,7%** de economia mediana; a dispensa, 1,5%.
+
+🔗 [painel-compras-publicas](https://github.com/PedroBLS/painel-compras-publicas)
 
 ### 🔎 gupy-search
 Ferramenta de linha de comando em TypeScript (Bun) para buscar vagas pela API pública da Gupy, com 7 testes automatizados. Também funciona como skill do Claude Code.
