@@ -15,7 +15,7 @@ Programo com apoio do **Claude Code**, mantendo as decisões técnicas e testand
 **Linguagens:** TypeScript / JavaScript, Python, SQL
 **Web:** React, Next.js (API Routes), Flask, HTML5, CSS3, APIs REST, webhooks, autenticação
 **Dados e ML:** PostgreSQL (Supabase), BigQuery, ETL, dbt, Power BI (DAX), Pandas, scikit-learn, PySpark (Spark MLlib), NLTK
-**Infra:** Docker, Nginx (proxy reverso), PM2, UFW, VPN, Linux (Ubuntu), Vercel
+**Infra:** Docker, Nginx (proxy reverso), PM2, UFW, VPN, Linux (Ubuntu), Vercel, AWS (Lambda, S3, EventBridge, CloudWatch, IAM)
 **Qualidade:** Vitest, Git/GitHub com pull requests
 
 ## 🚀 Projetos em destaque
@@ -31,6 +31,7 @@ Base pública de 7 mil clientes: tratamento dos dados e comparação entre Regre
 ### 🏛️ Painel de Compras Públicas (PNCP)
 ETL em Python que coleta cerca de 155 mil contratações públicas da Lei 14.133 (abr a set/2026) da API de Dados Abertos do Compras.gov.br e grava no PostgreSQL (Supabase), com carga incremental e upsert. Transformações e testes de qualidade em **dbt** (18 passos no `dbt build`), rodando tanto no PostgreSQL quanto no **BigQuery**, com resultados idênticos nos dois.
 - **Qualidade de dados:** as regras excluem 4.469 registros com valores inconsistentes na fonte (um deles estimado em R$ 3,9 trilhões).
+- **Carga diária na AWS:** Lambda agendado pelo EventBridge, cópia bruta no S3 e alarme de falha no CloudWatch com aviso por e-mail (SNS).
 - **Dashboard no Power BI:** o pregão eletrônico tem **28,7%** de economia mediana; a dispensa, 1,5%.
 
 🔗 [painel-compras-publicas](https://github.com/PedroBLS/painel-compras-publicas)
