@@ -35,6 +35,13 @@ ETL em Python que coleta cerca de 155 mil contratações públicas da Lei 14.133
 
 🔗 [painel-compras-publicas](https://github.com/PedroBLS/painel-compras-publicas)
 
+### 🤖 Assistente de Vagas com MCP + RAG
+Servidor **MCP** em Python com 4 ferramentas para o Claude: buscar vagas na Gupy, ver detalhes, indexar e achar as vagas **mais parecidas com um CV**.
+- **Busca semântica (RAG):** as descrições são quebradas em trechos com sobreposição e transformadas em embeddings multilíngues locais (fastembed/ONNX), guardados no **pgvector** (Supabase) com índice HNSW.
+- **Resultado:** a busca devolve o trecho da vaga que mais combinou, e o Claude explica o encaixe.
+
+🔗 [vagas-mcp-rag](https://github.com/PedroBLS/vagas-mcp-rag)
+
 ### 🔎 gupy-search
 Ferramenta de linha de comando em TypeScript (Bun) para buscar vagas pela API pública da Gupy, com 7 testes automatizados. Também funciona como skill do Claude Code.
 - **Contexto:** criada ao adaptar um agente open source de busca de vagas ao mercado brasileiro.
@@ -64,7 +71,7 @@ Site institucional responsivo publicado no GitHub Pages.
 
 ## 📈 Próximos estudos
 
-- RAG, agentes e MCP com a API do Claude
+- Agentes com a API do Claude
 - AWS na prática (Lambda, S3, IAM, CloudWatch)
 - Google Analytics 4 e Looker Studio
 
