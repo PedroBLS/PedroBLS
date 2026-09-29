@@ -14,7 +14,7 @@ Programo com apoio do **Claude Code**, mantendo as decisões técnicas e testand
 
 **Linguagens:** TypeScript / JavaScript, Python, SQL
 **Web:** React, Next.js (API Routes), Flask, HTML5, CSS3, APIs REST, webhooks, autenticação
-**Dados e ML:** PostgreSQL (Supabase), ETL, Power BI (DAX), Pandas, scikit-learn, PySpark (Spark MLlib), NLTK
+**Dados e ML:** PostgreSQL (Supabase), ETL, dbt, Power BI (DAX), Pandas, scikit-learn, PySpark (Spark MLlib), NLTK
 **Infra:** Docker, Nginx (proxy reverso), PM2, UFW, VPN, Linux (Ubuntu), Vercel
 **Qualidade:** Vitest, Git/GitHub com pull requests
 
@@ -29,7 +29,7 @@ Base pública de 7 mil clientes: tratamento dos dados e comparação entre Regre
 🔗 [etl-python-churn-strategy](https://github.com/PedroBLS/etl-python-churn-strategy)
 
 ### 🏛️ Painel de Compras Públicas (PNCP)
-ETL em Python que coleta cerca de 155 mil contratações públicas da Lei 14.133 (abr a set/2026) da API de Dados Abertos do Compras.gov.br e grava no PostgreSQL (Supabase), com carga incremental e upsert.
+ETL em Python que coleta cerca de 155 mil contratações públicas da Lei 14.133 (abr a set/2026) da API de Dados Abertos do Compras.gov.br e grava no PostgreSQL (Supabase), com carga incremental e upsert. Transformações e testes de qualidade em **dbt** (18 passos no `dbt build`).
 - **Qualidade de dados:** as regras excluem 4.469 registros com valores inconsistentes na fonte (um deles estimado em R$ 3,9 trilhões).
 - **Dashboard no Power BI:** o pregão eletrônico tem **28,7%** de economia mediana; a dispensa, 1,5%.
 
