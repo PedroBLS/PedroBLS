@@ -13,12 +13,20 @@ Programo com apoio do **Claude Code**, mantendo as decisões técnicas e testand
 ## 🛠️ Stack
 
 **Linguagens:** TypeScript / JavaScript, Python, SQL
-**Web:** React, Next.js (API Routes), Flask, HTML5, CSS3, APIs REST, webhooks, autenticação
+**Web:** React, Next.js (API Routes), Tailwind CSS, Flask, HTML5, CSS3, APIs REST, webhooks, autenticação
 **Dados e ML:** PostgreSQL (Supabase), BigQuery, ETL, dbt, Power BI (DAX), Pandas, scikit-learn, PySpark (Spark MLlib), NLTK
 **Infra:** Docker, Nginx (proxy reverso), PM2, UFW, VPN, Linux (Ubuntu), Vercel, AWS (Lambda, S3, EventBridge, CloudWatch, IAM)
-**Qualidade:** Vitest, Git/GitHub com pull requests
+**Qualidade:** Vitest, Testing Library, pytest, CI com GitHub Actions, Git/GitHub com pull requests
 
 ## 🚀 Projetos em destaque
+
+### 🎫 Central de Chamados (Help Desk)
+Front-end em **React + TypeScript (Next.js)** e **Tailwind CSS**, construído a partir de um layout do Figma e **responsivo do celular ao desktop**.
+- **Telas:** painel com indicadores de fila e **SLA**, lista de chamados com filtro, detalhe do chamado e formulário de abertura com validação.
+- **Do layout à interface:** reproduzi o layout do Figma e desenhei, no mesmo estilo, o que ele não tinha: a versão mobile, o detalhe e o formulário.
+- **Qualidade:** 11 testes com Vitest e Testing Library, e CI no GitHub Actions.
+
+🔗 [helpdesk-chamados](https://github.com/PedroBLS/helpdesk-chamados) · **[▶ ver online](https://helpdesk-chamados.vercel.app)**
 
 ### 📉 Previsão de Churn com ML e Retenção com IA
 Base pública de 7 mil clientes: tratamento dos dados e comparação entre Regressão Logística e Random Forest com validação cruzada.
@@ -73,7 +81,8 @@ Site institucional responsivo publicado no GitHub Pages.
 ## 📈 Próximos estudos
 
 - Agentes com a API do Claude
-- AWS na prática (Lambda, S3, IAM, CloudWatch)
+- Backend da Central de Chamados (API, PostgreSQL e login)
+- Terraform (infraestrutura como código)
 - Google Analytics 4 e Looker Studio
 
 ## 📫 Contato
